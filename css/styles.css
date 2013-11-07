@@ -1,0 +1,839 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*!
+ * Básicos
+ */
+
+.wrap {
+    width:960px;
+    margin:0 auto;
+    position:relative;
+    height:200px;
+}
+
+.header-container {
+    width:100%;
+    background:url(../img/header_background.jpg) repeat-x;
+    height:185px;
+}
+
+.masthead {
+    margin:0 auto;
+    width:1022px;
+    height:185px;
+}
+
+.welcome-container {
+    width:100%;
+    background:#2d436c;
+    height:380px;
+    padding:0;
+    margin:0;
+}
+
+.welcome {
+    width:960px;
+    margin:0 auto;
+    padding:50px;
+}
+
+.welcome h1 {
+    font-family: 'brandon_grotesque_light', Arial, Helvetica, sans-serif;
+    font-size:31px;
+    color:#f39424;
+    text-transform:uppercase;
+}
+
+.welcome p {
+    color:#fff;
+    font-family:'brandon_grotesque_light', Arial, Helvetica, sans-serif;
+    font-size:20px;
+    line-height:160%;
+    width:60%;
+    margin:0;
+    float:left;
+}
+
+.welcome img {
+    float:right;
+    margin-top:-35px;   
+}
+
+#preprova-container {
+    width:100%;
+    height:auto;
+    padding:80px 0 80px 0;
+    background:#233656;
+}
+
+#horadaprova-container {
+    width:100%;
+    height:auto;
+    padding:80px 0 80px 0;
+    background:#42314C;
+}
+
+.nav-bar {
+    width:570px;
+    margin:0 auto;
+}
+
+.nav-bar ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+    color:#fff;
+}
+
+.nav-bar ul li {
+    display:inline-block;
+    padding-right:5px;
+}
+
+/*!
+ * Slide 1 - Renato Saraiva
+ */
+
+.dica1-container {
+    width:100%;
+    background:#253654 url(../img/preprova/dica1/dica1-rs-bg.jpg) no-repeat;
+    background-position:50% 40%;
+    padding-top:250px;
+    height:600px;
+}
+
+#dica1 {
+    width:960px;
+    margin: 0 auto;
+    padding:60px;
+}
+
+#dica1 img:first-child {
+    position:absolute;
+    left:550px;
+    top:-320px;
+}
+
+#dica1 img:nth-child(2) {
+    position:absolute;
+    left:210px;
+    top:-540px;
+}
+
+#dica1 img:nth-child(3) {
+    position:absolute;
+    left:180px;
+    top:-80px;
+}
+
+#dica1-photo {
+	position:absolute;
+	background:url(../img/preprova/dica1/renato_sprite.png) top center;
+    width:706px;
+    height:425px;
+    top:-550px;
+    left:120px;
+}
+
+#dica1-photo span {
+	position: absolute;
+	top:0;
+	left:0;
+	width:706px;
+	height:425px;
+	background:url(../img/preprova/dica1/renato_sprite.png) bottom center;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+}
+
+#dica1-photo span:hover{
+	opacity: 1;
+}
+
+#dica1-button img:first-child {
+	position:absolute;
+	top:-180px;
+	left:130px;
+	z-index:1;
+}
+/*!
+ * Slide 2 - Fabio Roque
+ */
+
+.dica2-container {
+    width:100%;
+    background:#253654 url(../img/preprova/dica2/dica2-fr-bg.jpg) no-repeat;
+    background-position:50% 40%;
+    padding-top:200px;
+    height:600px;
+}
+
+#dica2 {
+    width:960px;
+    margin: 0 auto;
+    padding:60px;
+}
+
+#dica2 img:first-child {
+    position:absolute;
+    left:250px;
+    top:-320px;
+    z-index:1;
+}
+
+#dica2  img:nth-child(2) {
+    position:absolute;
+    left:610px;
+    top:-290px;
+    z-index:1;
+}
+
+#dica2  img:nth-child(3) {
+    position:absolute;
+    left:600px;
+    top:-350px;
+    z-index:1;
+}
+
+#dica2-photo {
+	position:absolute;
+	background:url(../img/preprova/dica2/fr_sprite.png) top center;
+    width:706px;
+    height:436px;
+    top:-550px;
+    left:120px;
+}
+
+#dica2-photo span {
+	position: absolute;
+	top:0;
+	left:0;
+	width:706px;
+	height:436px;
+	background:url(../img/preprova/dica2/fr_sprite.png) bottom center;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+}
+
+#dica2-photo span:hover{
+	opacity: 1;
+}
+
+#dica2-button img:first-child {
+	position:absolute;
+	top:-180px;
+	left:130px;
+	z-index:1;
+}
+
+/*!
+ * Slide 3 - Rogerio Sanches
+ */
+
+.dica3-container {
+    width:100%;
+    background:#253654 url(../img/preprova/dica3/dica3-rs-bg.jpg) no-repeat;
+    background-position:50% 40%;
+    padding-top:200px;
+    height:600px;
+}
+
+#dica3 {
+    width:960px;
+    margin: 0 auto;
+    padding:60px;
+}
+
+#dica3 img:first-child {
+    position:absolute;
+    left:250px;
+    top:-320px;
+    z-index:1;
+}
+
+#dica3  img:nth-child(2) {
+    position:absolute;
+    left:120px;
+    top:-380px;
+    z-index:1;
+}
+
+#dica3  img:nth-child(3) {
+    position:absolute;
+    left:600px;
+    top:-350px;
+    z-index:1;
+}
+
+#dica3-photo {
+	position:absolute;
+	background:url(../img/preprova/dica3/rogerio_sprite.png) top center;
+    width:706px;
+    height:355px;
+    top:-550px;
+    left:120px;
+}
+
+#dica3-photo span {
+	position: absolute;
+	top:0;
+	left:0;
+	width:706px;
+	height:355px;
+	background:url(../img/preprova/dica3/rogerio_sprite.png) bottom center;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+}
+
+#dica3-photo span:hover{
+	opacity: 1;
+}
+
+#dica3-button img:first-child {
+	position:absolute;
+	top:-250px;
+	left:130px;
+	z-index:1;
+}
+
+/*!
+ * Slide 4 - Edem Napoli
+ */
+
+.dica4-container {
+    width:100%;
+    background:#253654 url(../img/preprova/dica4/dica4-ed-bg.jpg) no-repeat;
+    background-position:50% 40%;
+    padding-top:200px;
+    height:640px;
+}
+
+#dica4 {
+    width:960px;
+    margin: 0 auto;
+    padding:60px;
+}
+
+#dica4 img:first-child {
+    position:absolute;
+    left:650px;
+    top:-120px;
+    z-index:1;
+}
+
+#dica4  img:nth-child(2) {
+    position:absolute;
+    left:220px;
+    top:-580px;
+    z-index:1;
+}
+
+#dica4  img:nth-child(3) {
+    position:absolute;
+    left:600px;
+    top:-350px;
+    z-index:1;
+}
+
+#dica4-photo {
+	position:absolute;
+	background:url(../img/preprova/dica4/edem_sprite.png) top center;
+    width:706px;
+    height:368px;
+    top:-550px;
+    left:120px;
+}
+
+#dica4-photo span {
+	position: absolute;
+	top:0;
+	left:0;
+	width:706px;
+	height:368px;
+	background:url(../img/preprova/dica4/edem_sprite.png) bottom center;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+}
+
+#dica4-photo span:hover{
+	opacity: 1;
+}
+
+#dica4-button img:first-child {
+	position:absolute;
+	top:-250px;
+	left:130px;
+	z-index:1;
+}
+
+/*!
+ * Slide 5 - Robério e Renato Brasileiro
+ */
+
+.dica5-container {
+    width:100%;
+    background:#253654 url(../img/preprova/dica5/dica5-bg.jpg) no-repeat 50%;
+    padding-top:200px;
+    height:700px;
+}
+
+#dica5 {
+    width:960px;
+    margin: 0 auto;
+    padding:60px;
+}
+
+.dica5-roberio img:first-child {
+    position:absolute;
+    left:250px;
+    top:-520px;
+}
+
+.dica5-renatob img:first-child {
+    position:absolute;
+    left:350px;
+    top:80px;
+}
+
+#dica5-renatob-photo {
+	position:absolute;
+	background:url(../img/preprova/dica5/renatobra_sprite.png) top center;
+    width:394px;
+    height:194px;
+    top:-250px;
+    left:520px;
+}
+
+#dica5-renatob-photo span {
+	position: absolute;
+	top:0;
+	left:0;
+	width:394px;
+	height:194px;
+	background:url(../img/preprova/dica5/renatobra_sprite.png) bottom center;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+}
+
+#dica5-renatob-photo span:hover{
+	opacity: 1;
+}
+
+
+#dica5-roberio-photo {
+	position:absolute;
+	background:url(../img/preprova/dica5/roberiosprite.png) top center;
+    width:388px;
+    height:210px;
+    top:-650px;
+    left:220px;
+}
+
+#dica5-roberio-photo span {
+	position: absolute;
+	top:0;
+	left:0;
+	width:388px;
+	height:210px;
+	background:url(../img/preprova/dica5/roberiosprite.png) bottom center;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+}
+
+#dica5-roberio-photo span:hover{
+	opacity: 1;
+}
+
+/*!
+ * Slide 6 - Juan Vasquez e Gustavo Nogueira
+ */
+
+.dica6-container {
+    width:100%;
+    background:#253654 url(../img/preprova/dica6/dica6-bg.jpg) no-repeat 50%;
+    padding-top:200px;
+    height:700px;
+}
+
+#dica6 {
+    width:960px;
+    margin: 0 auto;
+    padding:60px;
+}
+
+.dica6-juan img:first-child {
+    position:absolute;
+    left:350px;
+    top:-470px;
+}
+
+.dica6-gustavo img:first-child {
+    position:absolute;
+    left:290px;
+    top:40px;
+}
+
+#dica6-juan-photo {
+	position:absolute;
+	background:url(../img/preprova/dica6/vasquez_sprite.png) top center;
+    width:474px;
+    height:219px;
+    top:-650px;
+    left:50px;
+}
+
+#dica6-juan-photo span {
+	position: absolute;
+	top:0;
+	left:0;
+	width:474px;
+	height:219px;
+	background:url(../img/preprova/dica6/vasquez_sprite.png) bottom center;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+}
+
+#dica6-juan-photo span:hover{
+	opacity: 1;
+}
+
+
+#dica6-gustavo-photo {
+	position:absolute;
+	background:url(../img/preprova/dica6/nogueira_sprite.png) top center;
+    width:391px;
+    height:242px;
+    top:-290px;
+    left:500px;
+}
+
+#dica6-gustavo-photo span {
+	position: absolute;
+	top:0;
+	left:0;
+	width:391px;
+	height:242px;
+	background:url(../img/preprova/dica6/nogueira_sprite.png) bottom center;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+}
+
+#dica6-gustavo-photo span:hover{
+	opacity: 1;
+}
+
+
+/************************************************/
+/**************** HORA DA PROVA *****************/
+/************************************************/ 
+
+
+
+/*!
+ * Slide 8 - Renato de Pretto
+ */
+
+.dica8-container {
+    width:100%;
+    background:#42314C url(../img/horadaprova/dica1/dica1-bg.jpg) no-repeat;
+    background-position:50% 40%;
+    padding-top:250px;
+    height:640px;
+}
+
+#dica8 {
+    width:960px;
+    margin: 0 auto;
+    padding:60px;
+}
+
+#dica8 img:first-child {
+    position:absolute;
+    left:210px;
+    top:-350px;
+}
+
+#dica8  img:nth-child(2) {
+    position:absolute;
+    left:210px;
+    top:-390px;
+}
+
+#dica8  img:nth-child(3) {
+    position:absolute;
+    left:600px;
+    top:-410px;
+}
+
+#dica8-photo {
+	position:absolute;
+	background:url(../img/horadaprova/dica1/depretto_sprite.png) top center;
+    width:704px;
+    height:375px;
+    top:-650px;
+    left:112px;
+}
+
+#dica8-photo span {
+	position: absolute;
+	top:0;
+	left:0;
+	width:704px;
+	height:375px;
+	background:url(../img/horadaprova/dica1/depretto_sprite.png) bottom center;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+}
+
+#dica8-photo span:hover{
+	opacity: 1;
+}
+
+#dica8-button img:first-child {
+	position:absolute;
+	top:-360px;
+	left:130px;
+	z-index:1;
+}
+
+
+/*!
+ * Slide 9 - Edem Napoli
+ */
+
+.dica9-container {
+    width:100%;
+    background:#42314C url(../img/horadaprova/dica2/dica2-bg.jpg) no-repeat;
+    background-position:50% 40%;
+    padding-top:250px;
+    height:640px;
+}
+
+#dica9 {
+    width:960px;
+    margin: 0 auto;
+    padding:60px;
+}
+
+#dica9 img:first-child {
+    position:absolute;
+    left:200px;
+    top:-200px;
+}
+
+#dica9  img:nth-child(2) {
+    position:absolute;
+    left:150px;
+    top:-630px;
+}
+
+#dica9  img:nth-child(3) {
+    position:absolute;
+    left:600px;
+    top:-390px;
+}
+
+#dica9-photo {
+	position:absolute;
+	background:url(../img/horadaprova/dica2/edem_sprite2.png) top center;
+    width:474px;
+    height:358px;
+    top:-650px;
+    left:337px;
+}
+
+#dica9-photo span {
+	position: absolute;
+	top:0;
+	left:0;
+	width:474px;
+	height:358px;
+	background:url(../img/horadaprova/dica2/edem_sprite2.png) bottom center;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+}
+
+#dica9-photo span:hover{
+	opacity: 1;
+}
+
+#dica9-button img:first-child {
+	position:absolute;
+	top:-360px;
+	left:130px;
+	z-index:1;
+}
+
+
+/*!
+ * Slide 10 - Fabio Roque
+ */
+
+.dica10-container {
+    width:100%;
+    background:#42314C url(../img/horadaprova/dica3/dica3-bg.jpg) no-repeat;
+    background-position:50% 40%;
+    padding-top:250px;
+    height:640px;
+}
+
+#dica10 {
+    width:960px;
+    margin: 0 auto;
+    padding:60px;
+}
+
+#dica10 img:first-child {
+    position:absolute;
+    left:280px;
+    top:-350px;
+}
+
+#dica10  img:nth-child(2) {
+    position:absolute;
+    left:550px;
+    top:-630px;
+}
+
+#dica10  img:nth-child(3) {
+    position:absolute;
+    left:600px;
+    top:-210px;
+}
+
+#dica10-photo {
+	position:absolute;
+	background:url(../img/horadaprova/dica3/fabio_sprite2.png) top center;
+    width:706px;
+    height:383px;
+    top:-650px;
+    left:112px;
+}
+
+#dica10-photo span {
+	position: absolute;
+	top:0;
+	left:0;
+	width:706px;
+	height:383px;
+	background:url(../img/horadaprova/dica3/fabio_sprite2.png) bottom center;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+}
+
+#dica10-photo span:hover{
+	opacity: 1;
+}
+
+#dica10-button img:first-child {
+	position:absolute;
+	top:-360px;
+	left:130px;
+	z-index:1;
+}
+
+
+/*!
+ * Slide 11 - Rogerio Sanches
+ */
+
+.dica11-container {
+    width:100%;
+    background:#42314C url(../img/horadaprova/dica4/dica4-bg.jpg) no-repeat;
+    background-position:50% 40%;
+    padding-top:250px;
+    height:640px;
+}
+
+#dica11 {
+    width:960px;
+    margin: 0 auto;
+    padding:60px;
+}
+
+#dica11 img:first-child {
+    position:absolute;
+    left:280px;
+    top:-350px;
+}
+
+#dica11  img:nth-child(2) {
+    position:absolute;
+    left:550px;
+    top:-630px;
+}
+
+#dica11  img:nth-child(3) {
+    position:absolute;
+    left:160px;
+    top:-210px;
+}
+
+#dica11-photo {
+	position:absolute;
+	background:url(../img/horadaprova/dica4/rogerio_sprite2.png) top center;
+    width:704px;
+    height:400px;
+    top:-720px;
+    left:112px;
+}
+
+#dica11-photo span {
+	position: absolute;
+	top:0;
+	left:0;
+	width:704px;
+	height:400px;
+	background:url(../img/horadaprova/dica4/rogerio_sprite2.png) bottom center;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+}
+
+#dica11-photo span:hover{
+	opacity: 1;
+}
+
+#dica11-button img:first-child {
+	position:absolute;
+	top:-360px;
+	left:130px;
+	z-index:1;
+}
+
+/* Menu Test */
+.menu_test{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 200px;
+    background: #fff;
+    padding:100px;
+
+}
