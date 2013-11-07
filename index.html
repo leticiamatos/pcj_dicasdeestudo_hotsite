@@ -17,6 +17,10 @@
   </head>
 
   <body>
+      <nav class="menu_test">
+        <a class="chapters_01">preprova-container</a>
+        <a class="chapters_02">horadaprova-container</a>
+      </nav>
 
       <div class="header-container">
        
@@ -34,9 +38,6 @@
         </div>
       </div>
       
-      <nav class="menu_test">
-        <a class="chapters" data-who="home" href="!#home"></a>
-      </nav>
 
       <div id="preprova-container">
             
@@ -246,9 +247,11 @@
     
     <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+    <script type="text/javascript" src="js/utils.js"></script>
       
     <script type="text/javascript">
-        $(document).ready(function() {
+    $(document).ready(function() {
         $(".various").fancybox({
             maxWidth	: 800,
             maxHeight	: 600,
@@ -262,18 +265,18 @@
         });
     });
         
-        $('.fancybox-media')
-            .attr('rel', 'media-gallery')
-            .fancybox({
-            openEffect : 'none',
-            closeEffect : 'none',
-            prevEffect : 'none',
-            nextEffect : 'none',
-            arrows : false,
-            helpers : {
-                media : {},
-                buttons : {}
-            }
+    $('.fancybox-media')
+        .attr('rel', 'media-gallery')
+        .fancybox({
+        openEffect : 'none',
+        closeEffect : 'none',
+        prevEffect : 'none',
+        nextEffect : 'none',
+        arrows : false,
+        helpers : {
+            media : {},
+            buttons : {}
+        }
     });
     </script>
 
